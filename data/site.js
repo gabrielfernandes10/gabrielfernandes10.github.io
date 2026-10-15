@@ -10,6 +10,7 @@ window.PORTFOLIO = {
     linkedin: "https://www.linkedin.com/in/gabriel-fernandes-2442a734a/?isSelfProfile=true", 
    instagram: "g.fernandes9",
     email: "gdasilvafernandes@outlook.com" 
+  }
 
   tecnologias: [
     { grupo: "Linguagens", itens: [
