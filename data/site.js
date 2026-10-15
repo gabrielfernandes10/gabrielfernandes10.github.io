@@ -24,7 +24,7 @@ window.PORTFOLIO = {
     ]}
   ],
 
-  // imagem: { src: "assets/projetos/nome.webp", alt: "descrição", largura: 1200, altura: 750 } — só use capturas reais.
+   imagem: { src: "assets/projetos/artilha.jfif", alt: "Wallet", largura: 1200, altura: 750 } — só use capturas reais.
   projetos: [
     {
       nome: "ArtilhaBet",
