@@ -4,13 +4,12 @@
 window.PORTFOLIO = {
   nome: "Gabriel Fernandes",
 
-
   contato: {
     github: "https://github.com/gabrielfernandes10",
-    linkedin: "https://www.linkedin.com/in/gabriel-fernandes-2442a734a/?isSelfProfile=true", 
-   instagram: "g.fernandes9",
-    email: "gdasilvafernandes@outlook.com" 
-  }
+    linkedin: "https://www.linkedin.com/in/gabriel-fernandes-2442a734a/",
+    instagram: "g.fernandes9",
+    email: "gdasilvafernandes@outlook.com"
+  },
 
   tecnologias: [
     { grupo: "Linguagens", itens: [
@@ -25,7 +24,8 @@ window.PORTFOLIO = {
     ]}
   ],
 
-  // imagem: { src: "assets/projetos/artilha.jfif", alt: "Wallet", largura: 1200, altura: 750 } — só use capturas reais.
+  // imagem: { src: "assets/projetos/artilha.png", alt: "Tela Wallet do ArtilhaBet", largura: 1200, altura: 750 }
+  // Use só capturas reais. Troque "imagem: null" pela linha acima quando o arquivo estiver em assets/projetos/.
   projetos: [
     {
       nome: "ArtilhaBet",
