@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gabriel Fernandes — Desenvolvedor em formação</title>
+<meta name="description" content="Portfólio de Gabriel Fernandes, estudante de Engenharia de Software e ADS em busca do primeiro estágio em desenvolvimento.">
+<meta name="theme-color" content="#060A12">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23060A12'/%3E%3Cpath d='M12 9l-6 7 6 7M20 9l6 7-6 7' stroke='%233DE0F0' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="logo" href="#topo" aria-label="Gabriel Fernandes, início">&lt;gabriel/&gt;</a>
+    <button class="menu" type="button" aria-expanded="false" aria-controls="nav-lista">Menu</button>
+    <nav aria-label="Principal">
+      <ul id="nav-lista">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#tecnologias">Tecnologias</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+  <section class="hero" id="topo" aria-labelledby="titulo">
+    <div class="wrap">
+      <div>
+        <h1 id="titulo"><span>Gabriel</span><span>Fernandes</span></h1>
+        <p class="lead">Estudante de Engenharia de Software e de Análise e Desenvolvimento de Sistemas, em busca do primeiro estágio em desenvolvimento.</p>
+        <p class="sub">Aprendo construindo: cada projeto neste site é código que escrevi para entender como as coisas funcionam.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projetos">Explorar projetos</a>
+          <a class="btn" href="#contato">Entrar em contato</a>
+        </div>
+      </div>
+      <figure class="photo">
+        <picture>
+          <source type="image/webp" srcset="assets/foto-480.webp 480w, assets/foto-900.webp 900w" sizes="(max-width:860px) 280px, 400px">
+          <img src="assets/foto-900.jpg" width="900" height="900" alt="Gabriel Fernandes sorrindo, de camiseta preta, em um ambiente com luz azul-esverdeada" fetchpriority="high" decoding="async">
+        </picture>
+        <figcaption>// em evolução, um projeto por vez</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="sec" id="sobre" aria-labelledby="h-sobre">
+    <div class="wrap">
+      <h2 id="h-sobre">Sobre mim</h2>
+      <div class="prose">
+        <p>Curso Engenharia de Software e, em paralelo, Análise e Desenvolvimento de Sistemas. A faculdade me dá a base; os projetos mostram onde ela ainda falha e o que preciso aprender a seguir.</p>
+        <p>Gosto de começar por um protótipo visual em HTML, CSS e JavaScript, validar a ideia e só depois migrar para um framework. Prefiro entregar algo que pareça um produto de verdade a algo que apenas cumpre o enunciado.</p>
+        <p>Agora, quero um primeiro estágio em que eu trabalhe com código de produção e aprenda com uma equipe. Mais adiante, quero lançar produtos digitais meus.</p>
+        <pre class="code" aria-label="Resumo em formato de código"><code><span class="k">const</span> gabriel = {
+  cursando: [<span class="s">"Engenharia de Software"</span>, <span class="s">"ADS"</span>],
+  procurando: <span class="s">"estágio em desenvolvimento"</span>,
+  aprendendo: <span class="s">"construindo projetos"</span>
+};</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="tecnologias" aria-labelledby="h-tec">
+    <div class="wrap">
+      <h2 id="h-tec">Tecnologias</h2>
+      <div>
+        <p class="note">Ferramentas que conheço e pratico nos meus projetos. Estou em fase de aprendizado, sem me considerar especialista em nenhuma delas.</p>
+        <div id="tec"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="projetos" aria-labelledby="h-proj">
+    <div class="wrap">
+      <h2 id="h-proj">Projetos</h2>
+      <div id="proj"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="formacao" aria-labelledby="h-form">
+    <div class="wrap">
+      <h2 id="h-form">Formação e evolução</h2>
+      <div>
+        <ol class="timeline" id="form"></ol>
+        <p class="study" id="study"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="contato" aria-labelledby="h-cont">
+    <div class="wrap">
+      <h2 id="h-cont">Contato</h2>
+      <div>
+        <p class="lead small">Estou procurando meu primeiro estágio ou vaga júnior. Se algum projeto chamou sua atenção, é só falar comigo.</p>
+        <ul class="links" id="contato-links"></ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span id="foot-nome"></span>
+    <ul class="links inline" id="foot-links"></ul>
+  </div>
+</footer>
+
+<script src="data/site.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
