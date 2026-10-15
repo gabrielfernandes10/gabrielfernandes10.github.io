@@ -4,7 +4,7 @@
 window.PORTFOLIO = {
   nome: "Gabriel Fernandes",
 
-  // Preencha linkedin e email quando quiser exibi-los.
+
   contato: {
     github: "https://github.com/gabrielfernandes10",
     linkedin: "https://www.linkedin.com/in/gabriel-fernandes-2442a734a/?isSelfProfile=true", 
@@ -24,7 +24,7 @@ window.PORTFOLIO = {
     ]}
   ],
 
-   imagem: { src: "assets/projetos/artilha.jfif", alt: "Wallet", largura: 1200, altura: 750 } — só use capturas reais.
+  // imagem: { src: "assets/projetos/artilha.jfif", alt: "Wallet", largura: 1200, altura: 750 } — só use capturas reais.
   projetos: [
     {
       nome: "ArtilhaBet",
