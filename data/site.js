@@ -7,9 +7,9 @@ window.PORTFOLIO = {
   // Preencha linkedin e email quando quiser exibi-los.
   contato: {
     github: "https://github.com/gabrielfernandes10",
-    linkedin: "",              // ex.: "https://www.linkedin.com/in/seu-perfil"
-    email: ""                  // ex.: "voce@email.com"
-  },
+    linkedin: "https://www.linkedin.com/in/gabriel-fernandes-2442a734a/?isSelfProfile=true", 
+   instagram: "g.fernandes9",
+    email: "gdasilvafernandes@outlook.com" 
 
   tecnologias: [
     { grupo: "Linguagens", itens: [
